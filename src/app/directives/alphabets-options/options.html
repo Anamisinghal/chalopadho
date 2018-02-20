@@ -1,6 +1,6 @@
 <div class="options-container" ng-class="{'hide-container': showOverlay}">
     <div class="option-list">
-        <div ng-repeat="option in text track by $index" class="options-col" ng-click="selectOption({selected: option})">
+        <div ng-repeat="option in text track by $index" class="options-col" ng-class="{'selected-char': !option}" ng-click="selectedCharacter(option, $index)">
             {{option}}
         </div>
     </div>

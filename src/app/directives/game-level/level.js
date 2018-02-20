@@ -9,6 +9,7 @@ var gameLevel = function (API) {
         templateUrl: 'app/directives/game-level/level.html',
         controller: ['$scope', function ($scope) {
             $scope.answer = [];
+            $scope.newData = true;
             $scope.sendAnswer = function (selected) {
                 $scope.answer.push(selected);
             }
@@ -16,8 +17,13 @@ var gameLevel = function (API) {
                 if ($scope.answer.join('').toLowerCase() === API.words[$scope.level].word.toLowerCase()) {
                     return $scope.onSuccess();
                 } else {
-                    $scope.answer = [];
+                    return $scope.cancel();
                 }
+            }
+
+            $scope.cancel = function () {
+                $scope.answer = [];
+                $scope.newData = true;
             }
         }]
     }
