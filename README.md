@@ -8,3 +8,9 @@
 3. <b> cd chalopadho</b>
 4. <b>npm install && bower install</b>
 5. <b>gulp</b>
+
+
+User is maintained in localstorage
+
+Registration Page:
+<img src="./src/assets/images/app.png">
