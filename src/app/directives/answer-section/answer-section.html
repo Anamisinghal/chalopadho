@@ -1,0 +1,8 @@
+<div class="answer-container">
+    <div class="answer" ng-repeat="answerIndex in answerlength track by $index">
+
+        <input-field selected-option=answer[$index] ng-if="answer[$index]"></input-field>
+        <input-field selected-option='' ng-if="$index >= answer.length"></input-field>
+
+    </div>
+</div>

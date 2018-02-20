@@ -1,0 +1,37 @@
+<div class="container">
+    <flash-message duration="5000" class="flashMsgStyle" show-close="true"></flash-message>
+    <h2 class="welcomeHeader">WELCOME TO ASSESSPREP</h2>
+    <div class="login-signup-form">
+        <div class="space-bot text-center">
+            <h1>Login</h1>
+            <div class="divider"></div>
+        </div>
+        <form class="form-login" method="post" name="login" novalidate ng-submit="loginUser(form-login.$invalid)">
+
+
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" ng-model="user.email" class="validate" required>
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" ng-model="user.password" class="validate" required>
+            </div>
+
+
+            <!-- Buttons -->
+            <div class="space-top text-center">
+                <button type="submit" ng-disabled="form-login.$invalid" class="btn btn-primary">
+                    Login
+                </button>
+                <button type="button" class="btn btn-default" ng-click="createUser()">
+                    SignUp
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,161 @@
+body {
+  min-height: 100%;
+  background: #1f2025; }
+
+.main-page {
+  min-height: 90%;
+  padding: 10vh 0;
+  text-align: center; }
+  .main-page .title {
+    color: #fff; }
+
+.next-link {
+  padding-bottom: 5px;
+  text-align: right; }
+  .next-link a {
+    font-size: 20px;
+    text-decoration: none; }
+
+.main-container {
+  max-width: 350px;
+  margin: 0 auto; }
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+  .answer-container .answer {
+    padding: 0 2px; }
+    .answer-container .answer input {
+      width: 2em;
+      height: 2em;
+      background: black;
+      border: none;
+      box-shadow: 0 2px 2px 0px rgba(128, 128, 128, 0.451);
+      border-radius: 4px; }
+    .answer-container .answer .answer-value {
+      font-weight: 900;
+      color: white;
+      text-transform: capitalize;
+      text-align: center; }
+
+.options-section {
+  display: flex;
+  justify-content: center; }
+  .options-section .options-container {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: center; }
+    .options-section .options-container .option-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 0 80%; }
+      .options-section .options-container .option-list .options-col {
+        flex: 13.8%;
+        background: #eae6e6;
+        box-shadow: 0px 1px 4px 0px #fefefe;
+        font-weight: bold;
+        margin: 2px;
+        text-transform: capitalize; }
+    .options-section .options-container .options-action {
+      flex: 0 0 12%;
+      flex-wrap: wrap; }
+      .options-section .options-container .options-action .option-action-image {
+        height: 20.4px;
+        padding: 2px;
+        margin-top: 2px; }
+      .options-section .options-container .options-action .delete-icon {
+        background: red;
+        box-shadow: 0px 1px 4px 0px rgba(248, 118, 118, 0.522);
+        margin-top: 4px; }
+      .options-section .options-container .options-action .correct-icon {
+        background: rgba(40, 251, 40, 0.78);
+        box-shadow: 0px 1px 4px 0px rgba(97, 255, 58, 0.522); }
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; }
+  .image-container .image-row {
+    flex-direction: row;
+    display: flex; }
+    .image-container .image-row .image-col {
+      border: 6px solid rgba(80, 78, 78, 0.639);
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      flex: 50%;
+      margin: 6px; }
+      .image-container .image-row .image-col img {
+        height: 150px;
+        width: 150px; }
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: 2;
+  cursor: pointer; }
+  .overlay .wish-image {
+    padding: 10px;
+    margin-top: 2em; }
+  .overlay .wish-text {
+    color: white;
+    font-size: 1.5em; }
+  .overlay .coins {
+    padding: 10px;
+    margin-top: 2em; }
+  .overlay .overlay-button {
+    font-size: 1.4em;
+    font-weight: 600;
+    width: 10em;
+    margin-top: 10em; }
+
+.hide-container {
+  display: none !important; }
+
+.light-image {
+  opacity: .1; }
+
+.welcomeHeader {
+  text-align: center;
+  color: white; }
+
+/* Sign Up */
+.login-signup-form {
+  background: #2c3940;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 2em;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 20px;
+  padding-bottom: 40px;
+  transform: translateY(10%); }
+  .login-signup-form .form-register,
+  .login-signup-form .form-login {
+    text-align: center;
+    /* Error Box */ }
+    .login-signup-form .form-register label,
+    .login-signup-form .form-login label {
+      text-align: left;
+      width: 10em; }
+    .login-signup-form .form-register input,
+    .login-signup-form .form-login input {
+      border-radius: .5em;
+      color: #000;
+      outline: none; }
+    .login-signup-form .form-register .alert,
+    .login-signup-form .form-login .alert {
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      border-color: #e85a71;
+      background-color: #e85a71;
+      color: white; }

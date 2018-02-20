@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="main-page">
+        <div class="overlay">
+            <div class="wish-image">
+                <img src="./../assets/images/correct-text.png" height="70px">
+            </div>
+            <div class="wish-text"> You have guessed the word! </div>
+            <div class="coins">
+                <img src="./../assets/images/coins.png" height="100px">
+            </div>
+            <button class="btn btn-success overlay-button" ng-click="nextLevel()"> Continue</button>
+        </div>
+        <game-level level=wordIndex on-success="onSuccess()" show-overlay=showOverlay />
+    </div>
+    <footer class="next-link">
+        <a href="/game/">
+            Next
+            <img src="./../assets/images/next.png" height="30px">
+        </a>
+    </footer>
+</div>

@@ -1,0 +1,12 @@
+<div class="options-container" ng-class="{'hide-container': showOverlay}">
+    <div class="option-list">
+        <div ng-repeat="option in text track by $index" class="options-col" ng-click="selectOption({selected: option})">
+            {{option}}
+        </div>
+    </div>
+    <div class="options-action">
+        <img src="./../../assets/images/tick.png" class="option-action-image correct-icon" ng-click="done()">
+        <img src="./../../assets/images/delete.png" class="option-action-image delete-icon" ng-click="clear()">
+
+    </div>
+</div>
