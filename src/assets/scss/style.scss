@@ -68,6 +68,9 @@ body {
         margin: 2px;
         text-transform: capitalize;
       }
+      .selected-char {
+        background: #1f2126;
+      }
     }
     .options-action {
       flex: 0 0 12%;
