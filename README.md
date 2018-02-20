@@ -19,31 +19,31 @@ email and password validations are applied here.. password should have <b>1 spec
 <br/>
 <br/>
 
-Login to app
+Login to app <br />
 <img src="./src/assets/images/app-view/login.png">
 
-Home Page:
+Home Page:<br />
 <img src="./src/assets/images/app.png">
 
 Press <b>next</b> button in footer
 <br/>
 <br />
 <b>Game Level 1</b><br/>
-level is decided on the random basis
+level is decided on the random basis <br />
 
-<img src="./src/assets/images/app-view/game-1.png">
+<img src="./src/assets/images/app-view/game1.png">
 
-After filling the answer 
-<img src="./src/assets/images/app-view/game-2.png">
+After filling the answer <br />
+<img src="./src/assets/images/app-view/game1-1.png">
 
-On success 
+On success <br />
 <img src="./src/assets/images/app-view/success.png">
 
-in Next Level
-<img src="./src/assets/images/app-view/wrong-answer.png">
+in Next Level <br />
+<img src="./src/assets/images/app-view/wrong-game.png">
 
-If answer is wrong and pressed correct sign, hint will be updated and answer palette will be cleared.
-<img src="./src/assets/images/app-view/wrong-answer-1.png">
+If answer is wrong and pressed correct sign, hint will be updated and answer palette will be cleared. <br />
+<img src="./src/assets/images/app-view/wrong-game-1.png">
 
 
 
